@@ -1,0 +1,124 @@
+/* --------- RESET --------------- */
+* {
+	box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, button {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: top;
+}
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*  ------------------ */
+/* MY STYLES */
+
+.header {
+	background: #000;
+	color: white;
+	padding: 20px 0;
+	font-size: 30px;
+	text-align: center;
+}
+  
+div.main-box {
+	width: 1200px;
+	margin: 20px auto;
+}
+.main-box div {
+	outline: 1px solid black;
+}
+.first-box {
+	background: lightblue;
+	font-size: 0;
+}
+
+.first-box > div {
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	font-size: 20px;
+}
+.second-box {
+	font-size: 0;
+	background: darkgrey;
+}
+.second-box > div {
+	display: inline-block;
+	font-size: 20px;
+	width: 800px;
+}
+.second-box > div + div {
+	width: 400px;
+}
+.second-box-one > div {
+	height: 200px;
+}
+.second-box-two > div {
+	height: 133.333px;
+}
+.third-box {
+	background: lightcoral;
+	font-size: 0;
+}
+.third-box > div {
+	display: inline-block;
+	font-size: 20px;
+	width: 400px;
+}
+.third-box > div + div {
+	width: 800px;
+}
+.third-box-one > div {
+	height: 400px;
+}
+.third-box-two > div {
+	height: 200px;
+}
+.third-box-three{ 
+	font-size: 0;
+}
+.third-box-three > div {
+	display: inline-block;
+	font-size: 20px;
+	width: 400px;
+}
+.third-box-three> div {
+	height: 200px;
+}
+.third-box-four > div {
+	height: 100px;
+}
